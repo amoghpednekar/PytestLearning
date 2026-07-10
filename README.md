@@ -36,6 +36,10 @@ PytestLearnings/
 │   ├── conftest.py
 │   ├── test_login.py
 │   └── test_employee_create.py
+├── Parameterized/               # Parameterized pytest examples
+│   ├── calc_app.py
+│   ├── test_calc_app.py
+│   └── test_playwright.py
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -91,6 +95,14 @@ The Fixtures folder demonstrates:
 ### 3. Fixture-Based Patterns
 
 The Fixture_playwright folder shows how fixtures can be used to organize setup for simple web-page style scenarios and shared test context.
+
+### 4. Parameterized Tests
+
+The Parameterized folder demonstrates:
+
+- using pytest.mark.parametrize to run the same test with different inputs
+- combining multiple parameter sets for broader coverage
+- using pytest.param with custom IDs and skip marks
 
 ## Key Takeaways
 
