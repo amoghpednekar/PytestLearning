@@ -2,8 +2,9 @@ import pytest
 
 def test_first():
     assert 1 + 1 == 2
-    name1 = ["Amogh:11", "Karthik:12", "Amo:13"]
-    name2 = ["Amogh:11", "Karthik:12", "Amo:13"]
+    name1 =["Amogh:11", "Karthik:12", "Amo:13"]
+    #assert "Amogh" in name1
+    name2 = ["Amogh:32", "Karthik:12", "Amo:13"]
     assert name1 == name2
     print("This is the first test file")
 

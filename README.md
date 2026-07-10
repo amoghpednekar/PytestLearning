@@ -40,6 +40,10 @@ PytestLearnings/
 │   ├── calc_app.py
 │   ├── test_calc_app.py
 │   └── test_playwright.py
+├── Markers/                     # Custom markers, skip, xfail, and marker registration examples
+│   └── test_markers.py
+├── conftest.py                  # Global marker registration for pytest
+├── pytest.ini                   # Pytest configuration for custom markers
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -103,6 +107,15 @@ The Parameterized folder demonstrates:
 - using pytest.mark.parametrize to run the same test with different inputs
 - combining multiple parameter sets for broader coverage
 - using pytest.param with custom IDs and skip marks
+
+### 5. Markers and Skip Logic
+
+The Markers folder shows how to use pytest markers such as:
+
+- smoke, regression, and slow markers
+- skip and skipif decorators
+- xfail for expected failures
+- marker registration through conftest.py and pytest.ini
 
 ## Key Takeaways
 
